@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Pressemitteilung: Neue kostenlose Benzinpreis-App zum Start der Markttransparenzstelle"
+title:  "Neue kostenlose Benzinpreis-App zum Start der Markttransparenzstelle"
 date:   2013-12-02 16:00:00
-categories: pressemitteilung
-navpill: blog
+place:	"St. Leon-Rot"
+categories: presse
+navpill: presse
 excerpt: "Pünktlich zum Start der neuen Markttransparenzstelle für Kraftstoffe bringt die
 Bottled Software GmbH die kostenlose Benzinpreis-App 1-2-3 Tanken in den App
 Store. Die App für das iPhone ermöglicht es preisbewussten Autofahrern, schnell
@@ -11,6 +12,9 @@ und einfach die aktuell günstigste Tankstelle zu finden. „Unterwegs muss es o
 schnell gehen. Wir haben den Fokus bei 1-2-3 Tanken deshalb auf klares Design
 und intuitive Bedienung gelegt. Die Nutzung der App soll Spaß machen!“, so
 Geschäftsführer Florian Reinhart."
+downloads:
+  PDF: "/presse/1-2-3_tanken_2013-12-02.pdf"
+  Word: "/presse/1-2-3_tanken_2013-12-02.docx"
 ---
 
 ### Mit 1-2-3 Tanken schnell und einfach zur günstigsten Tankstelle finden ###

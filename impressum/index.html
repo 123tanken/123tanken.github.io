@@ -17,32 +17,7 @@ layout: default
 	</p>
 	<p>
 		<strong>Kontakt:</strong><br />
-		E-Mail:
-		<script type="text/javascript" language="javascript">
-			<!--
-			// Email obfuscator script 2.1 by Tim Williams, University of Arizona
-			// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-			// This code is freeware provided these four comment lines remain intact
-			// A wizard to generate this code is at http://www.jottings.com/obfuscator/
-			{
-				coded = "s4Mr@cWwPD4hL4.OL"
-				key = "xFJpWav90dX1P8zfKRnZiEDCSoOkcgb6MQm4es3YuqrHhjTAV2l5yLGwBtNIU7"
-				shift=coded.length
-				link=""
-				for (i=0; i<coded.length; i++) {
-					if (key.indexOf(coded.charAt(i))==-1) {
-						ltr = coded.charAt(i)
-						link += (ltr)
-					}
-					else {     
-						ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-						link += (key.charAt(ltr))
-					}
-				}
-				document.write("<a href='mailto:"+link+"'>"+link+"</a>")
-			}
-			//-->
-		</script><br />
+		E-Mail: {% include email.html coded="s4Mr@cWwPD4hL4.OL" key="xFJpWav90dX1P8zfKRnZiEDCSoOkcgb6MQm4es3YuqrHhjTAV2l5yLGwBtNIU7" %}<br />
 		Telefon: 06227/8303842<br />
 		Web: <a href="http://www.bottledsoftware.de" target="_blank">www.bottledsoftware.de</a>
 	</p>
@@ -74,7 +49,7 @@ layout: default
         
 	<h2 style="text-align:center; margin-top:30px;">Datenschutzerklärung</h2>
 	<p style="margin-top:30px;">
-		Unsere Datenschutzerklärung für <a href="/">www.123tanken.de</a> finden Sie <a href="privacy.html">hier</a>.
+		Unsere Datenschutzerklärung für <a href="/">www.123tanken.de</a> finden Sie <a href="/datenschutz/">hier</a>.
 	</p>
 	<p style="font-size:65%; margin-top:30px">
 		Quelle: <a href="http://www.e-recht24.de" target="_blank" rel="nofollow">http://www.e-recht24.de</a>

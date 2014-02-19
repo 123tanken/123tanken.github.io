@@ -1,14 +1,19 @@
 ---
 layout: post
-title:  "Pressemitteilung: 1-2-3 Tanken analysiert Benzinpreise"
+title:  "1-2-3 Tanken analysiert Benzinpreise"
 date:   2014-01-29 16:00:00
-categories: pressemitteilung
-navpill: blog
+place:	"St. Leon-Rot"
+categories: presse
+navpill: presse
 excerpt: "Eine aktuelle Analyse der Benzinpreise in Baden-Württemberg und Rheinland-Pfalz
 zeigt: Bei Aral zahlt man im Schnitt am meisten während man bei JET häufig am
 günstigsten tanken kann. Den Ergebnissen der Langzeituntersuchung von 1-2-3
 Tanken und dem Südwestrundfunk zufolge lohnt es sich, bis zum Abend mit dem
 Tanken zu warten. Zwischen 18 und 19 Uhr sind die Preise am niedrigsten."
+downloads:
+  PDF: "/presse/1-2-3_tanken_2014-01-29.pdf"
+  Word: "/presse/1-2-3_tanken_2014-01-29.docx"
+  Auswertungen: "/presse/1-2-3_tanken_auswertungen_2014-01-29.zip"
 ---
 
 ### Detaillierte Analyse der Benzinpreise in Baden-Württemberg und Rheinland-Pfalz ###

@@ -166,6 +166,25 @@ body {
   }
 }
 
+.pressrelease {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.pressrelease h4 {
+	margin-bottom: -10px;
+}
+
+.logo a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.logo img {
+	vertical-align: bottom;
+}
+
 #logo-nav-bar {
 	height: 30pt;
 	width: 30pt;
