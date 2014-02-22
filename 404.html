@@ -8,7 +8,7 @@ navpill: index
     if (urlParts[urlParts.length - 2] == "stations") {
         var stationId = urlParts[urlParts.length - 1];
         var regEx = /^\d+$/;
-        if (reqEx.test(stationId)) {
+        if (regEx.test(stationId)) {
             window.location.href = "/stations/?id=" + stationId;
         }
     }
