@@ -66,6 +66,8 @@
                 cell1.innerHTML = gasTypes[i];
                 if (prices[i] instanceof Array) {
                     cell2.innerHTML = prices[i][0];
+                } else {
+                    cell2.innerHTML = "-";
                 }
             }
             
