@@ -2,6 +2,18 @@
 layout: default
 navpill: index
 ---
+
+<script type="text/javascript">
+    var urlParts = document.URL.split("/");
+    if (urlParts[urlParts.length - 2] == "stations") {
+        var stationId = urlParts[urlParts.length - 1];
+        var regEx = /^\d+$/;
+        if (reqEx.test(stationId)) {
+            window.location.href = "/stations/?id=" + stationId;
+        }
+    }
+</script>
+
 <div class="jumbotron">
 	<img src="/images/404.png">
 	<h2>Zurück auf <a href="/">Los</a>.</h2>

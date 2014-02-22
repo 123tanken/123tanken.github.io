@@ -34,10 +34,15 @@
     
     <script type="text/javascript">
     
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    
     function initialize() {
-        
-        var urlParts = document.URL.split("/");
-        var stationId = urlParts[urlParts.length - 1];
+        var stationId = getParameterByName("id");
         var url = "http://api.123tanken.de/stations/" + stationId;
     
         // Get station
