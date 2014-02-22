@@ -64,7 +64,9 @@
                 var cell1 = priceRow.insertCell(0);
                 var cell2 = priceRow.insertCell(1);
                 cell1.innerHTML = gasTypes[i];
-                cell2.innerHTML = prices[i][0];
+                if (prices[i] instanceof Array) {
+                    cell2.innerHTML = prices[i][0];
+                }
             }
             
 /*
