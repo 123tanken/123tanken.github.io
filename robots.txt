@@ -1,1 +1,8 @@
+User-agent: *
+Disallow: /services.html
+Disallow: /imprint.html
+Disallow: /press.html
+Disallow: /press/1-2-3_tanken_2013-12-02.pdf
+Disallow: /press/1-2-3_tanken_2014-01-29.pdf
+
 Sitemap: http://www.123tanken.de/sitemap.xml
