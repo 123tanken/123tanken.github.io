@@ -15,6 +15,7 @@ Geschäftsführer Florian Reinhart."
 downloads:
   PDF: "/presse/1-2-3_tanken_2013-12-02.pdf"
   Word: "/presse/1-2-3_tanken_2013-12-02.docx"
+  Pressekit: "/presse/1-2-3_tanken_pressekit.zip"
 ---
 
 ### Mit 1-2-3 Tanken schnell und einfach zur günstigsten Tankstelle finden ###

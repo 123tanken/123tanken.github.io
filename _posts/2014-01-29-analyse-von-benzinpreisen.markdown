@@ -14,6 +14,7 @@ downloads:
   PDF: "/presse/1-2-3_tanken_2014-01-29.pdf"
   Word: "/presse/1-2-3_tanken_2014-01-29.docx"
   Auswertungen: "/presse/1-2-3_tanken_auswertungen_2014-01-29.zip"
+  Pressekit: "/presse/1-2-3_tanken_pressekit.zip"
 ---
 
 ### Detaillierte Analyse der Benzinpreise in Baden-Württemberg und Rheinland-Pfalz ###
