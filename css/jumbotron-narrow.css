@@ -52,13 +52,13 @@ body {
 
 .feature-presentation h1 {
 	font-size: 34px;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 .feature-presentation p {
 	width: 410px;
 	line-height: 1.6;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 .feature-presentation-even {
@@ -104,7 +104,7 @@ body {
 .feature-presentation-odd p {
 	position: absolute;
 	margin-top: 310px;
-	width: 400px;	
+	width: 400px;
 	margin-left: 400px;
 }
 
