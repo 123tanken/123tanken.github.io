@@ -70,11 +70,7 @@ body {
 .feature-presentation-odd div ~  div{ text-align: center; }
 
 @media (min-width: 768px) {
-  .feature-presentation-even img { float: left; }
-  .feature-presentation-odd img { float: right; }
-  .feature-text {
-    padding-top: 180px;
-  }
+  .feature-text { padding-top: 180px; }
 }
 
 .feature-presentation-odd p {
