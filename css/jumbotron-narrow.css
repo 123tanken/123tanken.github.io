@@ -54,6 +54,10 @@ body {
 	font-weight: 300;
 }
 
+.feature-presentation img {
+  max-width: 100%;
+}
+
 .feature-presentation p {
 	line-height: 1.6;
 	font-weight: 300;
