@@ -1,5 +1,5 @@
 name: 1-2-3 Tanken
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 encoding: UTF-8
 safe: true
