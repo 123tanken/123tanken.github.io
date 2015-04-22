@@ -12,6 +12,10 @@ downloads:
   Pressekit: "/presse/1-2-3_tanken_pressekit.zip"
 ---
 
+### Durch mehr Preistransparenz noch mehr sparen ###
+
+Nutzer der 1-2-3 Tanken App können sich freuen. Der offizielle Verbraucher-Informationsdienst der Markttransparenzstelle für Kraftstoffe führt mit der jetzt veröffentlichten Version 1.3 interaktive Preisstatistiken für seine Nutzer ein und erhöht damit nochmals die Transparenz bei Spritpreisen.
+
 ### Gesteigerte Transparenz dank interaktiver Preisstatistiken ###
 
 „Mit den interaktiven Preisstatistiken in 1-2-3 Tanken werden die Preise für Autofahrer noch transparenter.“, so Geschäftsführer Florian Reinhart. „Anstatt nur die aktuell gültigen Preise angezeigt zu bekommen, kann nun der gesamte Preisverlauf des aktuellen Tages bzw. der letzten Woche nachvollzogen werden. Dies ist für jede der insgesamt über 14.000 Tankstellen möglich. Hierdurch erzeugen wir noch mehr Transparenz.“

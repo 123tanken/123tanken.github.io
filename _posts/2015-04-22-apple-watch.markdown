@@ -12,6 +12,10 @@ downloads:
   Pressekit: "/presse/1-2-3_tanken_pressekit.zip"
 ---
 
+### Spritpreisvergleich am Handgelenk ###
+
+Als eine der ersten Apps überhaupt und als erste Benzinpreis-App unterstützt 1-2-3 Tanken die neue Apple Watch. Damit ermöglicht der offizielle Verbraucher-Informationsdienst der Markttransparenzstelle seinen Nutzern noch schneller und einfacher die günstigsten Spritpreise zu finden.
+
 ### Watch App konzentriert sich auf die wesentlichen Funktionen ###
 
 Mit der am 14. April veröffentlichten Version 1.6 müssen Apple Watch Besitzer für die Nutzung der wichtigsten Funktionen der Benzinpreis-App künftig nicht mehr ihr iPhone aus der Tasche ziehen. „Die typische Nutzungsweise der Apple Watch unterscheidet sich erheblich von iPhone Apps. Niemand schaut gerne länger als ein paar Sekunden auf ein kleines Display. Wir haben unsere Vorstellung von effizientem Design deshalb noch einmal völlig neu durchdacht, um mit dem Spritpreisvergleich am Handgelenk auch tatsächlich einen Mehrwert zu bieten“, erklärt Geschäftsführer Florian Reinhart.
