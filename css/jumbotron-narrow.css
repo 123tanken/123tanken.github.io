@@ -61,7 +61,6 @@ body {
 .feature-presentation p {
 	line-height: 1.6;
 	font-weight: 300;
-  /* max-width: 20em; */
 }
 
 .feature-presentation-even, .feature-presentation-odd {
@@ -73,33 +72,12 @@ body {
 .feature-presentation-even div ~ div { text-align: center; }
 .feature-presentation-odd div ~  div{ text-align: center; }
 
-/*
-.feature-presentation-odd p {
-	position: absolute;
-	margin-top: 310px;
-	width: 400px;
-	margin-left: 400px;
-}
-*/
-
-#hero-logo {
-	margin-top: -20px;
-	/* width: 170px; */
-}
-
 .nowrap {
   white-space: nowrap;
 }
 
 @media (min-width: 768px) {
   .feature-text { padding-top: 180px; }
-}
-
-@media (max-width: 767px) {
-  #hero-logo {
-    width: 85px;
-    height: 85px;
-  }
 }
 
 /* Customize container */
@@ -184,5 +162,4 @@ body {
 
 #hero-logo {
 	margin-top: -20px;
-	width: 170px;
 }
