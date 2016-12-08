@@ -73,20 +73,26 @@ body {
 .feature-presentation-even div ~ div { text-align: center; }
 .feature-presentation-odd div ~  div{ text-align: center; }
 
-@media (min-width: 768px) {
-  .feature-text { padding-top: 180px; }
-}
-
+/*
 .feature-presentation-odd p {
 	position: absolute;
 	margin-top: 310px;
 	width: 400px;
 	margin-left: 400px;
 }
+*/
 
 #hero-logo {
 	margin-top: -20px;
 	width: 170px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .feature-text { padding-top: 180px; }
 }
 
 @media (max-width: 767px) {
