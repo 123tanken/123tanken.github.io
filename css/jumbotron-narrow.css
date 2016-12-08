@@ -61,7 +61,7 @@ body {
 .feature-presentation p {
 	line-height: 1.6;
 	font-weight: 300;
-  max-width: 20em;
+  /* max-width: 20em; */
 }
 
 .feature-presentation-even, .feature-presentation-odd {
@@ -84,7 +84,7 @@ body {
 
 #hero-logo {
 	margin-top: -20px;
-	width: 170px;
+	/* width: 170px; */
 }
 
 .nowrap {
