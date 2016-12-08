@@ -25,9 +25,13 @@ body {
 }
 
 .share-buttons {
-	width: 260px;
-	height: 20px;
-	float: right;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 4px;
+}
+
+.share-buttons > * {
+  margin-left: 4px;
 }
 
 /* Custom page footer */
@@ -36,12 +40,6 @@ body {
   color: #777;
   border-top: 1px solid #e5e5e5;
   text-align: center;
-  height: 60px;
-}
-
-.copyright-notice {
-	width: 300px;
-	float: left;
 }
 
 .feature-presentation {
