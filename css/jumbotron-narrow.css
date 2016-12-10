@@ -25,9 +25,13 @@ body {
 }
 
 .share-buttons {
-	width: 260px;
-	height: 20px;
-	float: right;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 4px;
+}
+
+.share-buttons > * {
+  margin-left: 4px;
 }
 
 /* Custom page footer */
@@ -36,17 +40,10 @@ body {
   color: #777;
   border-top: 1px solid #e5e5e5;
   text-align: center;
-  height: 60px;
-}
-
-.copyright-notice {
-	width: 300px;
-	float: left;
 }
 
 .feature-presentation {
 	position: relative;
-	width: 100%;
 	font-size: 18px;
 }
 
@@ -55,70 +52,36 @@ body {
 	font-weight: 300;
 }
 
+.feature-presentation img {
+  max-width: 100%;
+}
+
 .feature-presentation p {
-	width: 410px;
 	line-height: 1.6;
 	font-weight: 300;
 }
 
-.feature-presentation-even {
-	margin-bottom: 0;
-	position: relative;
-	width: 100%;
-	height: 690px;
+.feature-presentation-even, .feature-presentation-odd {
 	border-top: 1px solid #e5e5e5;
 }
 
-.feature-presentation-even h1 {
-	position: absolute;
-	margin-left: 25px;
-	margin-top: 225px;
+.feature-presentation-even div:first-of-type { float: left; }
+.feature-presentation-odd div:first-of-type { float: right; }
+.feature-presentation-even div ~ div { text-align: center; }
+.feature-presentation-odd div ~  div{ text-align: center; }
+
+.nowrap {
+  white-space: nowrap;
 }
 
-.feature-presentation-even p {
-	position: absolute;
-	margin-top: 295px;
-	margin-left: 25px;
+@media (min-width: 768px) {
+  .feature-text { padding-top: 180px; }
 }
-
-.feature-presentation-even img {
-	position: absolute;
-	right: 15px;
-	margin-top: 10px;
-}
-
-.feature-presentation-odd {
-	margin-bottom: 0;
-	position: relative;
-	width: 100%;
-	height: 690px;
-	border-top: 1px solid #e5e5e5;
-}
-
-.feature-presentation-odd h1 {
-	position: absolute;
-	margin-left: 400px;
-	margin-top: 210px;
-}
-
-.feature-presentation-odd p {
-	position: absolute;
-	margin-top: 310px;
-	width: 400px;
-	margin-left: 400px;
-}
-
-.feature-presentation-odd img {
-	position: absolute;
-	margin-left: 20px;
-	margin-top: 10px;
-}
-
 
 /* Customize container */
 .container {
    max-width: 900px;
-   min-width: 900px;
+   /* min-width: 900px; */
 }
 .container-narrow > hr {
   margin: 30px 0;
@@ -197,5 +160,4 @@ body {
 
 #hero-logo {
 	margin-top: -20px;
-	width: 170px;
 }

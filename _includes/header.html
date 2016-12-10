@@ -1,11 +1,22 @@
-<div class="header">
-	<ul class="nav nav-pills pull-right">
-		<li{% if include.navpill == 'index' %} class="active"{% endif %}><a href="/">Home</a></li>
-		{% comment %}
-		<li{% if include.navpill == 'blog' %} class="active"{% endif %}><a href="/blog/">Blog</a></li>
-		{% endcomment %}
-		<li{% if include.navpill == 'services' %} class="active"{% endif %}><a href="/services/">Services</a></li>
-		<li{% if include.navpill == 'presse' %} class="active"{% endif %}><a href="/presse/">Presse</a></li>
-	</ul>
-	<h3 class="text-muted logo"><a href="/"><img src="/images/app_icon.png" id="logo-nav-bar" alt="1-2-3 Tanken Logo"/>1-2-3 Tanken</a></h3>
-</div>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Navigation ein- oder ausblenden</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">1-2-3 Tanken</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+		    <li{% if include.navpill == 'index' %} class="active"{% endif %}><a href="/">Home</a></li>
+		    <li{% if include.navpill == 'services' %} class="active"{% endif %}><a href="/services/">Services</a></li>
+		    <li{% if include.navpill == 'presse' %} class="active"{% endif %}><a href="/presse/">Presse</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
