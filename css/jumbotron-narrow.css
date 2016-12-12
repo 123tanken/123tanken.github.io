@@ -161,3 +161,17 @@ body {
 #hero-logo {
 	margin-top: -20px;
 }
+
+.device-switch {
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.invisible { display: none; }
+.android { position: relative; }
+.android .screenshot {
+  position: absolute;
+  top: 14.5%;
+  left: 11%;
+  height: 71.5%;
+}
