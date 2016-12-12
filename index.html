@@ -38,6 +38,8 @@ navpill: index
   $(document).ready(function() {
     var useragent = navigator.userAgent.toLowerCase();
     var isAndroid = useragent.indexOf("android") > -1;
+    var forceAndroid = window.location.href.includes('#android');
+    var forceIOS = window.location.href.includes('#ios');
     var reset = function() {
       $('.btn').removeClass('active')
       $('.ios').removeClass('invisible')
@@ -56,7 +58,13 @@ navpill: index
 
     $('.android-button').click(activateAndroid);
     $('.ios-button').click(activateIOS);
-    return isAndroid ? activateAndroid() : activateIOS()
+    if (forceIOS) {
+      activateIOS()
+    } else if (forceAndroid || isAndroid) {
+      activateAndroid()
+    } else {
+      activateIOS()
+    }
   })
 </script>
 
