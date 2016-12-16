@@ -36,8 +36,8 @@ Plus-Nutzer können außerdem Preisalarme für unbegrenzt viele Tankstellen einr
 
 ### Verfügbarkeit ###
 
-1-2-3 Tanken läuft ab Android 4.1 und ist ab sofort kostenlos im Google Play Store erhältlich.
-1-2-3 Tanken im Google Play Store: [https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken][android]
+1-2-3 Tanken läuft ab Android 4.1 und ist ab sofort kostenlos im Google Play Store erhältlich.<br>
+1-2-3 Tanken im Google Play Store: [https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken][android]<br>
 1-2-3 Tanken im iOS App Store: [http://AppStore.com/123Tanken][ios]
 
 ### Über 1-2-3 Tanken ###
