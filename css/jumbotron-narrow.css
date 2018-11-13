@@ -61,10 +61,6 @@ body {
 	font-weight: 300;
 }
 
-.feature-presentation-even, .feature-presentation-odd {
-	border-top: 1px solid #e5e5e5;
-}
-
 .feature-presentation-even > div:first-of-type { float: left; }
 .feature-presentation-odd > div:first-of-type { float: right; }
 .feature-presentation-even > div ~ div { text-align: center; }
