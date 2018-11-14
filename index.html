@@ -2,25 +2,44 @@
 layout: default
 navpill: index
 ---
+
 <div class="jumbotron">
   <h1 style="margin-top:-10px;">
-    <img id="hero-logo"
+    <img
+      id="hero-logo"
       src="images/app_icon_large.png"
       srcset="images/app_icon_large@2x.png 2x"
-      alt="1-2-3 Tanken App Icon" />
+      alt="1-2-3 Tanken App Icon"
+    />
     <span class="nowrap">1-2-3 Tanken</span>
   </h1>
   <p class="lead">
-    Lade jetzt die intuitiv zu bedienende 1-2-3 Tanken App kostenlos herunter und spare bares Geld. Die iPhone App ist im App Store verfügbar und die Android App im Google Play Store.
+    Lade jetzt die intuitiv zu bedienende 1-2-3 Tanken App kostenlos herunter
+    und spare bares Geld. Die iPhone App ist im App Store verfügbar und die
+    Android App im Google Play Store.
   </p>
   <p>
     <!-- App Store -->
-    <a href="https://itunes.apple.com/de/app/1-2-3-tanken/id688981330?mt=8" target="itunes_store">
-      <img src="images/app_store_badge.svg" width="135px" height="40px" alt="Laden im App Store">
+    <a
+      href="https://itunes.apple.com/de/app/1-2-3-tanken/id688981330?mt=8"
+      target="itunes_store"
+    >
+      <img
+        src="images/app_store_badge.svg"
+        width="135px"
+        height="40px"
+        alt="Laden im App Store"
+      />
     </a>
     <!-- Play Store -->
-    <a href='https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken&utm_source=website&utm_campaign=website&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-      <img alt='Jetzt bei Google Play' height="60px" src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/>
+    <a
+      href="https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken&utm_source=website&utm_campaign=website&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+    >
+      <img
+        alt="Jetzt bei Google Play"
+        height="60px"
+        src="https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png"
+      />
     </a>
   </p>
 </div>
@@ -28,7 +47,9 @@ navpill: index
 <div class="device-switch container-fluid">
   <div class="btn-group" role="group">
     <button type="button" class="ios-button btn btn-default btn-lg">iOS</button>
-    <button type="button" class="android-button btn btn-default btn-lg">Android</button>
+    <button type="button" class="android-button btn btn-default btn-lg">
+      Android
+    </button>
   </div>
 </div>
 
@@ -36,83 +57,95 @@ navpill: index
   $(document).ready(function() {
     var useragent = navigator.userAgent.toLowerCase();
     var isAndroid = useragent.indexOf("android") > -1;
-    var forceAndroid = window.location.href.includes('#android');
-    var forceIOS = window.location.href.includes('#ios');
+    var forceAndroid = window.location.href.includes("#android");
+    var forceIOS = window.location.href.includes("#ios");
     var reset = function() {
-      $('.btn').removeClass('active')
-      $('.ios').removeClass('invisible')
-      $('.android').removeClass('invisible')
-    }
+      $(".btn").removeClass("active");
+      $(".ios").removeClass("invisible");
+      $(".android").removeClass("invisible");
+    };
     var activateAndroid = function() {
       reset();
-      $('.android-button').addClass('active')
-      $('.ios').addClass('invisible')
-    }
+      $(".android-button").addClass("active");
+      $(".ios").addClass("invisible");
+    };
     var activateIOS = function() {
       reset();
-      $('.ios-button').addClass('active')
-      $('.android').addClass('invisible')
-    }
+      $(".ios-button").addClass("active");
+      $(".android").addClass("invisible");
+    };
 
-    $('.android-button').click(activateAndroid);
-    $('.ios-button').click(activateIOS);
+    $(".android-button").click(activateAndroid);
+    $(".ios-button").click(activateIOS);
     if (forceIOS) {
-      activateIOS()
+      activateIOS();
     } else if (forceAndroid || isAndroid) {
-      activateAndroid()
+      activateAndroid();
     } else {
-      activateIOS()
+      activateIOS();
     }
-  })
+  });
 </script>
 
 <div class="feature-presentation container-fluid">
-
   <div class="row feature-presentation-even">
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Jederzeit topaktuelle Spritpreise</h1>
       <p>
-        Mit der 1-2-3 Tanken App findest du auf einfachste Weise die
-        jeweils aktuellen Spritpreise. Die dafür benötigten Daten
-        melden die Tankstellen direkt an die Markttransparenzstelle für
-        Kraftstoffe und wir leiten diese umgehend an dich weiter.
+        Mit der 1-2-3 Tanken App findest du auf einfachste Weise die jeweils
+        aktuellen Spritpreise in Deutschland, Frankreich, Italien, Spanien und
+        Portugal. Die dafür benötigten Daten melden die Tankstellen direkt an
+        zentrale Meldestellen und wir leiten diese umgehend an dich weiter.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
       <div class="ios">
-        <img src="images/screenshots/details_with_phone.jpg"
+        <img
+          src="images/screenshots/details_with_phone.jpg"
           srcset="images/screenshots/details_with_phone@2x.jpg 2x"
-          alt="Screenshot Detailansicht"/>
+          alt="Screenshot Detailansicht"
+        />
       </div>
       <div class="android invisible">
-        <img src="images/screenshots/android/frame.png"
-          alt="Google Pixel Smartphone Device Art"/>
-        <img class="screenshot"
+        <img
+          src="images/screenshots/android/frame.png"
+          alt="Google Pixel Smartphone Device Art"
+        />
+        <img
+          class="screenshot"
           src="images/screenshots/android/details.png"
-          alt="Screenshot Detailansicht"/>
+          alt="Screenshot Detailansicht"
+        />
       </div>
-    </div> </div>
+    </div>
+  </div>
   <div class="row feature-presentation-odd">
     <div class="col-xs-12 col-sm-7 feature-text">
-      <h1>Deutschlandkarte mit allen Tankstellen</h1>
+      <h1>Karte mit allen Tankstellen</h1>
       <p>
-        Egal ob du Tankstellen in deiner Nähe oder in einer anderen
-        Stadt finden möchtest: In der Kartenansicht hast du alle
-        wichtigen Informationen sofort im Blick.
+        Egal ob du Tankstellen in deiner Nähe oder in einer anderen Stadt finden
+        möchtest: In der Kartenansicht hast du alle wichtigen Informationen
+        sofort im Blick.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
       <div class="ios">
-        <img src="images/screenshots/map_with_phone.jpg"
+        <img
+          src="images/screenshots/map_with_phone.jpg"
           srcset="images/screenshots/map_with_phone@2x.jpg 2x"
-          alt="Screenshot Karte"/>
+          alt="Screenshot Karte"
+        />
       </div>
       <div class="android invisible">
-        <img src="images/screenshots/android/frame.png"
-          alt="Google Pixel Smartphone Device Art"/>
-        <img class="screenshot"
+        <img
+          src="images/screenshots/android/frame.png"
+          alt="Google Pixel Smartphone Device Art"
+        />
+        <img
+          class="screenshot"
           src="images/screenshots/android/map.png"
-          alt="Screenshot Karte"/>
+          alt="Screenshot Karte"
+        />
       </div>
     </div>
   </div>
@@ -121,24 +154,30 @@ navpill: index
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Tankstellen auf Ihrer Reiseroute</h1>
       <p>
-        Du planst eine längere Strecke zu fahren und möchtest auf dem
-        Weg so günstig wie möglich tanken? Kein Problem! Gib
-        einfach Start- und Zielort an und 1-2-3 Tanken zeigt dir
-        die günstigsten Tankstellen auf dem Weg an.
+        Du planst eine längere Strecke zu fahren und möchtest auf dem Weg so
+        günstig wie möglich tanken? Kein Problem! Gib einfach Start- und Zielort
+        an und 1-2-3 Tanken zeigt dir die günstigsten Tankstellen auf dem Weg
+        an.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
       <div class="ios">
-        <img src="images/screenshots/route_with_phone.jpg"
+        <img
+          src="images/screenshots/route_with_phone.jpg"
           srcset="images/screenshots/route_with_phone@2x.jpg 2x"
-          alt="Screenshot Route"/>
+          alt="Screenshot Route"
+        />
       </div>
       <div class="android invisible">
-        <img src="images/screenshots/android/frame.png"
-          alt="Google Pixel Smartphone Device Art"/>
-        <img class="screenshot"
+        <img
+          src="images/screenshots/android/frame.png"
+          alt="Google Pixel Smartphone Device Art"
+        />
+        <img
+          class="screenshot"
           src="images/screenshots/android/route.png"
-          alt="Screenshot Route"/>
+          alt="Screenshot Route"
+        />
       </div>
     </div>
   </div>
@@ -147,25 +186,30 @@ navpill: index
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Übersichtliche Listenansicht</h1>
       <p>
-        Du möchtest sofort sehen, wo es am meisten Sinn macht zu
-        tanken? In der Listenansicht siehst du sofort, welche
-        Tankstellen am günstigsten sind. Und damit du auf dem Weg zur
-        Tankstelle nicht mehr Sprit verbrauchst als du am Ende sparst,
-        sind alle Tankstellen nach Entfernung gruppiert.
+        Du möchtest sofort sehen, wo es am meisten Sinn macht zu tanken? In der
+        Listenansicht siehst du sofort, welche Tankstellen am günstigsten sind.
+        Und damit du auf dem Weg zur Tankstelle nicht mehr Sprit verbrauchst als
+        du am Ende sparst, sind alle Tankstellen nach Entfernung gruppiert.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
       <div class="ios">
-        <img src="images/screenshots/list_with_phone.jpg"
+        <img
+          src="images/screenshots/list_with_phone.jpg"
           srcset="images/screenshots/list_with_phone@2x.jpg 2x"
-          alt="Screenshot Liste"/>
+          alt="Screenshot Liste"
+        />
       </div>
       <div class="android invisible">
-        <img src="images/screenshots/android/frame.png"
-          alt="Google Pixel Smartphone Device Art"/>
-        <img class="screenshot"
+        <img
+          src="images/screenshots/android/frame.png"
+          alt="Google Pixel Smartphone Device Art"
+        />
+        <img
+          class="screenshot"
           src="images/screenshots/android/list.png"
-          alt="Screenshot Liste"/>
+          alt="Screenshot Liste"
+        />
       </div>
     </div>
   </div>
@@ -174,24 +218,30 @@ navpill: index
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Deine Favoriten stets im Blick</h1>
       <p>
-        Du hast Tankstellen bei denen du bevorzugt tankst und willst
-        diese immer im Blick behalten? Mit der 1-2-3 Tanken App kannst
-        du dir eine Favoritenliste anlegen. So hast du die
-        Preise deiner Lieblingstankstellen immer im Auge.
+        Du hast Tankstellen bei denen du bevorzugt tankst und willst diese immer
+        im Blick behalten? Mit der 1-2-3 Tanken App kannst du dir eine
+        Favoritenliste anlegen. So hast du die Preise deiner
+        Lieblingstankstellen immer im Auge.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
       <div class="ios">
-        <img src="images/screenshots/favorites_with_phone.jpg"
+        <img
+          src="images/screenshots/favorites_with_phone.jpg"
           srcset="images/screenshots/favorites_with_phone@2x.jpg 2x"
-          alt="Screenshot Favoriten"/>
+          alt="Screenshot Favoriten"
+        />
       </div>
       <div class="android">
-        <img src="images/screenshots/android/frame.png"
-          alt="Google Pixel Smartphone Device Art"/>
-        <img class="screenshot"
+        <img
+          src="images/screenshots/android/frame.png"
+          alt="Google Pixel Smartphone Device Art"
+        />
+        <img
+          class="screenshot"
           src="images/screenshots/android/favorites.png"
-          alt="Screenshot Favoriten"/>
+          alt="Screenshot Favoriten"
+        />
       </div>
     </div>
   </div>
@@ -200,25 +250,31 @@ navpill: index
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Jederzeit topaktuell</h1>
       <p>
-        Dank dem Preisalarm bist du jederzeit auf dem neusten Stand
-        auch ohne die App zu öffnen. Stelle einfach ein für welche
-        Tankstellen und Spritsorten du über Preissenkungen informiert
-        werden möchtest. Du erhältst dann eine Benachrichtigung direkt
-        auf dein Smartphone sobald der Preis fällt.
+        Dank dem Preisalarm bist du jederzeit auf dem neusten Stand auch ohne
+        die App zu öffnen. Stelle einfach ein für welche Tankstellen und
+        Spritsorten du über Preissenkungen informiert werden möchtest. Du
+        erhältst dann eine Benachrichtigung direkt auf dein Smartphone sobald
+        der Preis fällt.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
       <div class="ios">
-        <img src="images/screenshots/price_alert_with_phone.jpg"
+        <img
+          src="images/screenshots/price_alert_with_phone.jpg"
           srcset="images/screenshots/price_alert_with_phone@2x.jpg 2x"
-          alt="Screenshot Preisalarm"/>
+          alt="Screenshot Preisalarm"
+        />
       </div>
       <div class="android invisible">
-        <img src="images/screenshots/android/frame.png"
-          alt="Google Pixel Smartphone Device Art"/>
-        <img class="screenshot"
+        <img
+          src="images/screenshots/android/frame.png"
+          alt="Google Pixel Smartphone Device Art"
+        />
+        <img
+          class="screenshot"
           src="images/screenshots/android/price_alert.png"
-          alt="Screenshot Preisalarm"/>
+          alt="Screenshot Preisalarm"
+        />
       </div>
     </div>
   </div>
@@ -227,23 +283,29 @@ navpill: index
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Interaktive Preisstatistiken</h1>
       <p>
-        Zu jeder Tankstelle kannst du interaktive Preisstatistiken
-        aufrufen. Damit kannst du noch leichter den idealen Zeitpunkt
-        zum Tanken bestimmen.
+        Zu jeder Tankstelle kannst du interaktive Preisstatistiken aufrufen.
+        Damit kannst du noch leichter den idealen Zeitpunkt zum Tanken
+        bestimmen.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
       <div class="ios">
-        <img src="images/screenshots/statistics_with_phone.jpg"
+        <img
+          src="images/screenshots/statistics_with_phone.jpg"
           srcset="images/screenshots/statistics_with_phone@2x.jpg 2x"
-          alt="Screenshot Preisstatistiken"/>
+          alt="Screenshot Preisstatistiken"
+        />
       </div>
       <div class="android invisible">
-        <img src="images/screenshots/android/frame.png"
-          alt="Google Pixel Smartphone Device Art"/>
-        <img class="screenshot"
+        <img
+          src="images/screenshots/android/frame.png"
+          alt="Google Pixel Smartphone Device Art"
+        />
+        <img
+          class="screenshot"
           src="images/screenshots/android/statistics.png"
-          alt="Screenshot Preisstatistiken"/>
+          alt="Screenshot Preisstatistiken"
+        />
       </div>
     </div>
   </div>
@@ -252,15 +314,17 @@ navpill: index
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Immer bestens informiert</h1>
       <p>
-        Mit dem 1-2-3 Tanken Widget für die Mitteilungszentrale kannst
-        du jederzeit die Preise deiner Favoritentankstellen sehen ohne
-        die App öffnen zu müssen.
+        Mit dem 1-2-3 Tanken Widget für die Mitteilungszentrale kannst du
+        jederzeit die Preise deiner Favoritentankstellen sehen ohne die App
+        öffnen zu müssen.
       </p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
-      <img src="images/screenshots/widget_with_phone.jpg"
+      <img
+        src="images/screenshots/widget_with_phone.jpg"
         srcset="images/screenshots/widget_with_phone@2x.jpg 2x"
-        alt="Screenshot Preisalarm"/>
+        alt="Screenshot Preisalarm"
+      />
     </div>
   </div>
 
@@ -268,17 +332,18 @@ navpill: index
     <div class="col-xs-12 col-sm-7 feature-text">
       <h1>Apple Watch App</h1>
       <p>
-        1-2-3 Tanken ist auch für die Apple Watch verfügbar. Damit
-        kannst du schnell und unkompliziert, direkt am Handgelenk, die
-        Preise deiner Favoritentankstelle prüfen oder die günstigste
-        Tankstelle in der Umgebung finden.
+        1-2-3 Tanken ist auch für die Apple Watch verfügbar. Damit kannst du
+        schnell und unkompliziert, direkt am Handgelenk, die Preise deiner
+        Favoritentankstelle prüfen oder die günstigste Tankstelle in der
+        Umgebung finden.
       </p>
     </div>
     <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-0">
-      <img src="images/screenshots/favorites_with_watch.jpg"
+      <img
+        src="images/screenshots/favorites_with_watch.jpg"
         srcset="images/screenshots/favorites_with_watch@2x.jpg 2x"
-        alt="Screenshot Preisstatistiken"/>
+        alt="Screenshot Preisstatistiken"
+      />
     </div>
   </div>
-
 </div>

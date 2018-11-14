@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Mehr Länder und mehr Spritsorten für 1-2-3 Tanken "
+date:   2018-11-14 12:00:00
+place:	"St. Leon-Rot"
+categories: presse
+navpill: presse
+excerpt: "Die Benzinpreisvergleichs-App 1-2-3 Tanken, erhältlich für iOS und Android, bekommt mit der Version 2.0 ihr bisher größtes Update. Dieses bringt neben Preisen für neue Spritsorten, wie Super Plus und weiteren Premiumsorten, noch mehr Detailinformationen zu einzelnen Tankstellen, wie z.B. verfügbare Tankstellenservices, akzeptierten Zahlungsmittel, Kontaktinformationen und vieles mehr. Außerdem können sich Autofahrer freuen, die nicht nur in Deutschland, sondern auch im europäischen Ausland unterwegs sind und dort Tanken: Die neue Version der App zeigt nun auch Tankstellen und Preise in Frankreich, Italien, Spanien und Portugal an. Dies beinhaltet auch beliebte Urlaubsziele wie die Kanarische Inseln, die Balearen, Sizilien und Korsika."
+downloads:
+  PDF: "/presse/1-2-3_tanken_2018-11-14.pdf"
+  Word: "/presse/1-2-3_tanken_2018-11-14.docx"
+  Pressekit: "/presse/1-2-3_tanken_pressekit.zip"
+---
+
+Die Benzinpreisvergleichs-App 1-2-3 Tanken, erhältlich für iOS und Android, bekommt mit der Version 2.0 ihr bisher größtes Update. Dieses bringt neben Preisen für neue Spritsorten, wie Super Plus und weiteren Premiumsorten, noch mehr Detailinformationen zu einzelnen Tankstellen, wie z.B. verfügbare Tankstellenservices, akzeptierten Zahlungsmittel, Kontaktinformationen und vieles mehr. Außerdem können sich Autofahrer freuen, die nicht nur in Deutschland, sondern auch im europäischen Ausland unterwegs sind und dort Tanken: Die neue Version der App zeigt nun auch Tankstellen und Preise in Frankreich, Italien, Spanien und Portugal an. Dies beinhaltet auch beliebte Urlaubsziele wie die Kanarische Inseln, die Balearen, Sizilien und Korsika.
+
+### Datenqualität hat Vorrang ###
+
+Die Daten der deutschen Tankstellen bezieht 1-2-3 Tanken bereits seit der ersten Version von der Markttransparenzstelle für Kraftstoffe (MTS-K) des Bundeskartellamts. Um nun auch weitere Informationen zu Tankstellen anzuzeigen, wurden zahlreiche zusätzliche Datenquellen integriert. Für den Autofahrer hat dies den Vorteil, dass neben weiteren Echtzeit-Preisen nun auch Informationen zu Tankstellenservices, Verfügbarkeit von z.B. LPG oder AdBlue, sowie akzeptieren Zahlungsmethoden und Tankkarten angezeigt werden. 
+
+Aber auch im europäischen Ausland hat 1-2-3 Tanken größten Wert auf beste Datenqualität gelegt und bezieht die Daten deshalb ausschließlich aus offiziellen Quellen. „Wir möchten unter allen Umständen verhindern, dass ein Nutzer aufgrund falscher Informationen zu einer Tankstelle fährt und dann enttäuscht wird. Deshalb stammen all unsere Daten aus offiziellen Quellen oder direkt von den Stationsbetreibern”, teilt der Geschäftsführer, Florian Reinhart, dazu mit. Nutzer der 1-2-3 Tanken App können sich also auch im europäischen Ausland auf topaktuelle Tankstellenpreise verlassen.
+
+### Weitere nützliche Funktionen und aufpolierte Optik ###
+
+Neben den zahlreichen neuen Daten bietet die Version 2.0 von 1-2-3 Tanken auch eine verbesserte Benutzeroberfläche und einige nützliche neuen Funktionen. So bekommt die Routenberechnung in der iOS-Version nun ihr eigenes Tab und der verbesserte Routenalgorithmus zeigt nun noch besser und in regelmäßigen Abständen entlang der Route, die jeweils günstigsten Tankstellen in der Umgebung an. So lässt sich auch auf längeren Fahrten kräftig sparen. Zuvor eingegebene Orte bzw. Routen werden nun außerdem in einer Historie gespeichert. So entfällt die lästige Neueingabe von bereits zuvor gesuchten Orten.
+
+### Verfügbarkeit ###
+
+1-2-3 Tanken im iOS App Store: [http://AppStore.com/123Tanken][ios]<br>
+1-2-3 Tanken im Google Play Store: [https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken][android]
+
+### Über 1-2-3 Tanken ###
+
+1-2-3 Tanken wurde Ende 2013 als eine der ersten Benzinpreisvergleichs-Apps mit direkter Anbindung an die Markttransparenzstelle für Kraftstoffe veröffentlicht. Seit der Version 2.0 beinhaltet die App neben Tankstellen in Deutschland auch Tankstellen in Frankreich, Italien, Spanien und Portugal. Von Anfang an legte 1-2-3 Tanken den Fokus auf eine einfache Bedienung und eine schlichte Benutzeroberfläche. Die App wurde seitdem ständig weiterentwickelt und um neue Funktionen erweitert.
+
+Die Basisversion von 1-2-3 Tanken ist kostenlos und enthält Werbung. Für noch mehr zusätzliche Funktionen, wie z.B. interaktiven Preisstatistiken, unbegrenzte Preisalarme und einer Apple Watch App, kann ein 1-2-3 Tanken Plus Abo abgeschlossen werden. Die 1-2-3 Tanken Plus Version ist außerdem komplett werbefrei.
+
+
+[android]:  https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken
+[ios]:      http://AppStore.com/123Tanken
