@@ -20,3 +20,4 @@ rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13132, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13788, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 15994, RESELLER, 0bfd66d529a55807
+google.com, pub-1709389689151341, DIRECT, f08c47fec0942fa0
