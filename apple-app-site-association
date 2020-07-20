@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "EU38S8HXTE.de.bottledsoftware.123Tanken"
+        ],
+        "components": [
+          {
+            "/": "/stations/*",
+            "comment": "Matches any URL whose path starts with /stations/"
+          }
+        ]
+      }
+    ]
+  }
+}
