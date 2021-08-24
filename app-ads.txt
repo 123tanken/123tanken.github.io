@@ -36,3 +36,8 @@ indexexchange.com,192410,RESELLER,50b1c356f2c5c8fc
 admanmedia.com,726,RESELLER
 EMXDGT.com, 1963, DIRECT, 1e1d41537f7cad7f
 Appnexus.com, 1356, RESELLER, f5ab79cb980f11d1
+smartadserver.com, 4012, RESELLER
+smartadserver.com, 4016, RESELLER
+smartadserver.com, 4071, RESELLER
+smartadserver.com, 4073, RESELLER
+smartadserver.com, 4074, RESELLER
