@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Mehr Länder und mehr Spritsorten für 1-2-3 Tanken "
+date:   2022-09-13 12:00:00
+place:	"St. Leon-Rot"
+categories: presse
+navpill: presse
+excerpt: "Mit dem Update für iOS 16 und watchOS 9 funktioniert die Benzinpreisvergleichs-App 1-2-3 Tanken nun auch direkt im Auto mit Apple CarPlay. Zudem enthält die Version neue Widgets für den Sperrbildschirm des iPhones und integriert Apples „Look Around“ zur interaktiven Betrachtung der Tankstellenumgebung."
+downloads:
+  PDF: "/presse/1-2-3_tanken_2022-09-13.pdf"
+  Word: "/presse/1-2-3_tanken_2022-09-13.docx"
+  Pressekit: "/presse/1-2-3_tanken_pressekit.zip"
+---
+
+Mit dem Update für iOS 16 und watchOS 9 funktioniert die Benzinpreisvergleichs-App 1-2-3 Tanken nun auch direkt im Auto mit Apple CarPlay. Zudem enthält die Version neue Widgets für den Sperrbildschirm des iPhones und integriert Apples „Look Around“ zur interaktiven Betrachtung der Tankstellenumgebung.
+
+### CarPlay: Meist nachgefragtes Feature ###
+
+Bereits seit der Einführung von CarPlay durch Apple wünschten sich viele Nutzer:innen eine Integration von 1‑2‑3 Tanken direkt im Auto.
+
+„Die CarPlay-Funktion steht seit Jahren ganz oben auf der Wunschliste unserer Nutzer:innen. Wir sind froh, mit der neuen Version 2.4 nun endlich auch direkt im Auto die günstigsten Tankstellen anzeigen zu können“, erklärt der Geschäftsführer Florian Reinhart.
+
+Bis dahin war es ein langer Weg. Denn erst mit dem kürzlich erschienen Update auf iOS 16 erlaubt Apple Benzinpreis-Apps in CarPlay. Die Bottled Software GmbH war über die letzten Jahre in ständigem Kontakt mit Apple und hat beharrlich auf die Vorteile einer CarPlay-Integration von 1‑2‑3 Tanken hingewiesen.
+
+### Neue Widgets für den Sperrbildschirm ###
+
+Bereits seit 2 Jahren gibt es 1‑2‑3 Tanken-Widgets für den iPhone-Homescreen. Mit iOS 16 kommen diese nun auch auf den Sperrbildschirm. So lässt sich schnell der aktuelle Preis an der Lieblingstankstelle oder in der Umgebung überprüfen ohne das Smartphone zu entsperren. Mit dem neuen „Always On“-Display des iPhones 14 Pro sind die Widgets im Sperrbildschirm sogar dauerhaft sichtbar.
+
+### „Look Around“ für interaktives Betrachten der Tankstellenumgebung ###
+
+Ebenfalls neu in der iPhone App ist die Integration von Apples „Look Around“. Damit lässt sich die Umgebung jeder Tankstelle interaktiv betrachten. Gerade bei unbekannten Tankstellen kann man sich so vorab mit der Umgebung vertraut machen.
+
+### Über 1-2-3 Tanken ###
+
+1‑2‑3 Tanken wurde Ende 2013 als eine der ersten Benzinpreisvergleichs-Apps mit direkter Anbindung an die Markttransparenzstelle für Kraftstoffe (MTS-K) veröffentlicht. Seit Version 2.0 beinhaltet die App neben Tankstellen in Deutschland auch Tankstellen in Frankreich, Italien, Spanien und Portugal. Von Anfang an legte 1‑2‑3 Tanken den Fokus auf eine einfache Bedienung und eine übersichtliche Benutzeroberfläche. Die App wurde seitdem ständig weiterentwickelt und um neue Funktionen erweitert.
+
+Die Basisversion von 1‑2‑3 Tanken ist kostenlos und enthält Werbung. Für zusätzliche Funktionen, wie beispielsweise interaktiven Preisstatistiken, unbegrenzte Preisalarme, CarPlay und einer Apple Watch-App, kann ein 1‑2‑3 Tanken Plus-Abo abgeschlossen werden. Mit 1‑2‑3 Tanken Plus wird die App außerdem komplett werbefrei.
+
+### Verfügbarkeit ###
+
+1-2-3 Tanken im iOS App Store: [https://apps.apple.com/de/app/1-2-3-tanken/id688981330?mt=8][ios]<br>
+1-2-3 Tanken im Google Play Store: [https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken][android]
+
+[android]:  https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken
+[ios]:      https://apps.apple.com/de/app/1-2-3-tanken/id688981330?mt=8
