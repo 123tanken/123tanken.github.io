@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Mehr Länder und mehr Spritsorten für 1-2-3 Tanken "
-date:   2022-09-13 12:00:00
+title:  "1-2-3 Tanken jetzt für CarPlay und im iPhone-Sperrbildschirm"
+date:   2022-09-13 06:00:00
 place:	"St. Leon-Rot"
 categories: presse
 navpill: presse
