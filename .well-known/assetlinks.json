@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.bottledsoftware.tanken",
+      "sha256_cert_fingerprints": [
+        "53:00:E4:21:90:7E:CD:61:B3:CB:2A:0D:D0:46:59:48:90:B6:62:F2:AD:D8:8E:70:E0:9B:A4:D8:FA:6B:09:D1"
+      ]
+    }
+  }
+]
